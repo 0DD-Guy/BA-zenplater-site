@@ -1,913 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Zenplater is a lightweight Windows desktop media player built by Bident Arts.">
+<meta name="theme-color" content="#08070b">
+<title>Zenplater — Media, without the bullshit.</title>
 
-    <meta
-        name="description"
-        content="Zenplater is a lightweight Windows desktop media player built by BIDENT ARTS."
-    >
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <meta name="theme-color" content="#08070b">
-
-    <title>Zenplater — Media, without the bullshit.</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
-        rel="stylesheet"
-    >
-
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<div class="site-noise"></div>
-
-<!-- NAVIGATION -->
+<div class="bg-fx"></div>
 
 <header class="nav">
+  <a href="#top" class="brand">
+    <span class="dots"><i></i><i></i><i></i></span>
+    <span>ZENPLATER</span>
+  </a>
 
-    <a href="#top" class="brand">
+  <nav class="nav-links">
+    <a href="#product">Product</a>
+    <a href="#features">Features</a>
+    <a href="#roadmap">Roadmap</a>
+    <a href="#download">Download</a>
+  </nav>
 
-        <span class="brand-mark">
-            <i></i>
-            <i></i>
-            <i></i>
-        </span>
-
-        <span>ZENPLATER</span>
-
-    </a>
-
-    <nav class="nav-links">
-
-        <a href="#product">PRODUCT</a>
-        <a href="#features">FEATURES</a>
-        <a href="#roadmap">ROADMAP</a>
-        <a href="#download">DOWNLOAD</a>
-
-    </nav>
-
-    <div class="nav-meta">
-        <span>0.1.0 BETA</span>
-        <span>BIDENT ARTS</span>
-    </div>
-
+  <div class="nav-meta">
+    <span>0.1.0 Beta</span>
+    <span>Bident Arts</span>
+  </div>
 </header>
-
 
 <main id="top">
 
-<!-- HERO -->
-
-<section class="hero section-grid">
-
+  <!-- HERO -->
+  <section class="hero">
     <div class="hero-copy reveal">
+      <p class="eyebrow"><span class="dot"></span>Media system / build 0.1.0</p>
+      <h1>Media,<br><span class="outline">without the<br>bullshit.</span></h1>
+      <p class="lede">A lightweight desktop media player designed around the things that actually matter.</p>
+      <p class="sub">No clutter. No nonsense. Just your media.</p>
 
-        <p class="eyebrow">
-            <span class="status-dot"></span>
-            MEDIA SYSTEM / BUILD 0.1.0
-        </p>
-
-        <h1>
-            MEDIA,<br>
-            <em>WITHOUT THE<br>BULLSHIT.</em>
-        </h1>
-
-        <p class="hero-lede">
-            A lightweight desktop media player designed around
-            the things that actually matter.
-        </p>
-
-        <p class="hero-sub">
-            No clutter. No nonsense. Just your media.
-        </p>
-
-        <a
-            class="download-button"
-            href="https://github.com/0DD-Guy/BA-zenplater-site/releases/download/zenplater/Zenplater.Setup.0.1.0.exe"
-        >
-
-            <span>↓</span>
-
-            <strong>DOWNLOAD ZENPLATER</strong>
-
-            <small>
-                Windows · Version 0.1.0 Beta
-            </small>
-
-        </a>
-
-        <a
-            class="github-note"
-            href="https://github.com/0DD-Guy/BA-zenplater-site/releases"
-        >
-            Released through GitHub ↗
-        </a>
-
-    </div>
-
-
-    <div class="hero-specimen reveal reveal-delay">
-
-        <div class="specimen-label label-a">
-            ZENPLATER / 001
-        </div>
-
-        <div class="specimen-label label-b">
-            DESKTOP MEDIA SYSTEM
-        </div>
-
-        <div class="specimen-label label-c">
-            01° 07' 0.1"
-        </div>
-
-        <div class="hero-crosshair"></div>
-
-        <div class="hero-ring"></div>
-
-    </div>
-
-
-    <div class="hero-foot mono">
-
-        <span>
-            LIGHTWEIGHT / LOCAL / WINDOWS
+      <a class="btn-primary" href="https://github.com/0DD-Guy/BA-zenplater-site/releases/download/zenplater/Zenplater.Setup.0.1.0.exe">
+        <span class="btn-icon">↓</span>
+        <span class="btn-text">
+          <strong>Download Zenplater</strong>
+          <small>Windows · Version 0.1.0 Beta</small>
         </span>
+      </a>
 
-        <span>
-            SCROLL TO EXPLORE ↓
-        </span>
-
+      <a class="link-note" href="https://github.com/0DD-Guy/BA-zenplater-site/releases">Released through GitHub ↗</a>
     </div>
 
-</section>
-
-
-<!-- PRODUCT -->
-
-<section id="product" class="product-section section-grid">
-
-    <div class="section-heading reveal">
-
-        <span class="section-number">01</span>
-
-        <div>
-
-            <p class="eyebrow">
-                PRODUCT / INTERFACE SPECIMEN
-            </p>
-
-            <h2>
-                THE PLAYER,<br>
-                <span>WITHOUT THE NOISE.</span>
-            </h2>
-
-        </div>
-
+    <div class="hero-visual reveal">
+      <div class="ring"></div>
+      <div class="crosshair"></div>
+      <span class="tag tag-a">ZENPLATER / 001</span>
+      <span class="tag tag-b">Desktop media system</span>
     </div>
 
+    <div class="hero-foot mono reveal">
+      <span>Lightweight / Local / Windows</span>
+      <span>Scroll to explore ↓</span>
+    </div>
+  </section>
+
+  <!-- PRODUCT -->
+  <section id="product" class="section">
+    <div class="heading reveal">
+      <span class="index">01</span>
+      <div>
+        <p class="eyebrow">Product / Interface specimen</p>
+        <h2>The player,<br><span class="accent">without the noise.</span></h2>
+      </div>
+    </div>
 
     <div class="player-stage reveal">
-
-        <div class="player-window">
-
-            <div class="player-topbar">
-
-                <div class="window-brand">
-
-                    <span class="mini-mark">
-                        <i></i>
-                        <i></i>
-                        <i></i>
-                    </span>
-
-                    ZENPLATER
-
-                </div>
-
-                <span class="mono">
-                    0.1.0 BETA
-                </span>
-
-            </div>
-
-
-            <div class="media-area">
-
-                <div class="media-corner tl">
-                    MEDIA / 001
-                </div>
-
-                <div class="media-corner tr">
-                    00:00:00
-                </div>
-
-                <div class="play-symbol">
-                    ▶
-                </div>
-
-                <div class="media-corner bl">
-                    NO DISTRACTIONS
-                </div>
-
-                <div class="media-corner br">
-                    READY
-                </div>
-
-            </div>
-
-
-            <div class="track-info">
-
-                <div>
-
-                    <span class="mono">
-                        NOW PLAYING
-                    </span>
-
-                    <strong>
-                        Your media
-                    </strong>
-
-                </div>
-
-                <div class="track-format mono">
-                    LOCAL FILE / AUTO
-                </div>
-
-            </div>
-
-
-            <div class="seek">
-
-                <span>00:00</span>
-
-                <div class="seek-line">
-                    <i></i>
-                </div>
-
-                <span>00:00</span>
-
-            </div>
-
-
-            <div class="player-controls">
-
-                <button aria-label="Previous">
-                    ◀◀
-                </button>
-
-                <button class="play-button" aria-label="Play">
-                    ▶
-                </button>
-
-                <button aria-label="Next">
-                    ▶▶
-                </button>
-
-                <span class="control-spacer"></span>
-
-                <span class="control-readout">
-                    1×
-                </span>
-
-                <span class="volume-glyph">
-                    ◖)))
-                </span>
-
-            </div>
-
+      <div class="player">
+        <div class="player-top">
+          <span class="player-brand"><span class="dots"><i></i><i></i><i></i></span> ZENPLATER</span>
+          <span class="mono">0.1.0 Beta</span>
         </div>
 
-
-        <div class="annotation annotation-one">
-            <span>01</span>
-            <b>MEDIA PLAYBACK</b>
-            <i></i>
+        <div class="player-screen">
+          <span class="corner tl mono">MEDIA / 001</span>
+          <span class="corner tr mono">00:00:00</span>
+          <div class="play-circle">▶</div>
+          <span class="corner bl mono">No distractions</span>
+          <span class="corner br mono">Ready</span>
         </div>
 
-        <div class="annotation annotation-two">
-            <span>02</span>
-            <b>PLAYLIST SYSTEM</b>
-            <i></i>
+        <div class="player-track">
+          <div>
+            <span class="mono label">Now playing</span>
+            <strong>Your media</strong>
+          </div>
+          <span class="mono muted">Local file / Auto</span>
         </div>
 
-        <div class="annotation annotation-three">
-            <span>03</span>
-            <b>SPEED CONTROL</b>
-            <i></i>
+        <div class="player-seek mono">
+          <span>00:00</span>
+          <div class="seek-bar"><i></i></div>
+          <span>00:00</span>
         </div>
 
-        <div class="annotation annotation-four">
-            <span>04</span>
-            <b>KEYBOARD CONTROL</b>
-            <i></i>
+        <div class="player-controls">
+          <button aria-label="Previous">◀◀</button>
+          <button class="main" aria-label="Play">▶</button>
+          <button aria-label="Next">▶▶</button>
+          <span class="spacer"></span>
+          <span class="mono muted">1×</span>
+          <span class="mono muted">◖)))</span>
         </div>
+      </div>
 
+      <span class="callout c1"><b>01</b> Media playback</span>
+      <span class="callout c2"><b>02</b> Playlist system</span>
+      <span class="callout c3"><b>03</b> Speed control</span>
+      <span class="callout c4"><b>04</b> Keyboard control</span>
     </div>
+  </section>
 
-</section>
-
-
-<!-- PHILOSOPHY -->
-
-<section class="philosophy">
-
-    <div class="philosophy-mark mono reveal">
-        THE IDEA / 002
-    </div>
-
-
+  <!-- PHILOSOPHY -->
+  <section class="philosophy">
+    <p class="mono kicker reveal">The idea / 002</p>
     <div class="philosophy-title reveal">
-
-        <h2>
-            WE DON'T NEED<br>
-            ANOTHER MEDIA PLAYER.
-        </h2>
-
-        <h2 class="outline">
-            WE NEEDED<br>
-            A BETTER ONE.
-        </h2>
-
+      <h2>We don't need<br>another media player.</h2>
+      <h2 class="outline">We needed<br>a better one.</h2>
     </div>
-
-
     <div class="philosophy-copy reveal">
+      <p class="eyebrow">Why Zenplater exists</p>
+      <p>Zenplater was built around a simple idea: media playback shouldn't require fighting through a wall of unnecessary controls, menus, accounts, subscriptions, advertisements, and clutter.</p>
+      <p>It should just play your media.</p>
+    </div>
+  </section>
 
-        <span class="eyebrow">
-            WHY ZENPLATER EXISTS
-        </span>
+  <!-- FEATURES -->
+  <section id="features" class="section">
+    <div class="heading reveal">
+      <span class="index">02</span>
+      <div>
+        <p class="eyebrow">Capabilities / Current build</p>
+        <h2>What Zenplater<br><span class="accent">does.</span></h2>
+      </div>
+    </div>
 
-        <p>
-            Zenplater was built around a simple idea:
-            media playback shouldn't require fighting through
-            a wall of unnecessary controls, menus, accounts,
-            subscriptions, advertisements, and clutter.
-        </p>
+    <div class="feature-list">
 
-        <p>
-            It should just play your media.
-        </p>
+      <article class="feature wide reveal">
+        <span class="index">01</span>
+        <div class="feature-body">
+          <p class="eyebrow">Core / Playback</p>
+          <h3>Media playback</h3>
+          <p>Audio and video playback from a clean desktop interface. The media stays the focus.</p>
+        </div>
+        <div class="feature-visual">
+          <span class="mono">Play</span>
+          <strong>▶</strong>
+        </div>
+      </article>
+
+      <article class="feature reveal">
+        <span class="index">02</span>
+        <div class="feature-body">
+          <p class="eyebrow">Local / Memory</p>
+          <h3>Persistent playlists</h3>
+          <p>Create playlists and keep them stored locally.</p>
+        </div>
+        <div class="feature-visual list">
+          <span class="mono muted">Playlists</span>
+          <b>Favorites <i>12</i></b>
+          <b>Watch later <i>07</i></b>
+          <b>My playlist <i>24</i></b>
+        </div>
+      </article>
+
+      <article class="feature reveal">
+        <span class="index">03</span>
+        <div class="feature-body">
+          <p class="eyebrow">Control / Precision</p>
+          <h3>Playback control</h3>
+          <p>Volume, mute, playback speed and seeking controls where you expect them.</p>
+        </div>
+        <div class="feature-visual speed">
+          <strong>1×</strong>
+          <span class="mono muted">0.5×&nbsp;&nbsp;1.5×&nbsp;&nbsp;2×</span>
+        </div>
+      </article>
+
+      <article class="feature reveal">
+        <span class="index">04</span>
+        <div class="feature-body">
+          <p class="eyebrow">Input / Shortcuts</p>
+          <h3>Keyboard control</h3>
+          <p>Control playback without constantly reaching for the mouse.</p>
+        </div>
+        <div class="feature-visual keys">
+          <span class="key"><b>M</b>Mute</span>
+          <span class="key"><b>[</b>Speed down</span>
+          <span class="key"><b>]</b>Speed up</span>
+          <span class="key wide"><b>Shift + ←</b>Volume −</span>
+          <span class="key wide"><b>Shift + →</b>Volume +</span>
+        </div>
+      </article>
 
     </div>
 
-</section>
-
-
-<!-- FEATURES -->
-
-<section id="features" class="features-section">
-
-    <div class="feature-intro section-grid reveal">
-
-        <span class="section-number">
-            02
-        </span>
-
-        <div>
-
-            <p class="eyebrow">
-                CAPABILITIES / CURRENT BUILD
-            </p>
-
-            <h2>
-                WHAT ZENPLATER<br>
-                <em>DOES.</em>
-            </h2>
-
-        </div>
-
-    </div>
-
-
-    <!-- FEATURE 1 -->
-
-    <article class="feature feature-wide reveal">
-
-        <div class="feature-index">
-            01
-        </div>
-
-        <div class="feature-content">
-
-            <p class="eyebrow">
-                CORE / PLAYBACK
-            </p>
-
-            <h3>
-                MEDIA<br>
-                PLAYBACK
-            </h3>
-
-            <p>
-                Audio and video playback from a clean desktop
-                interface. The media stays the focus.
-            </p>
-
-        </div>
-
-
-        <div class="feature-visual playback-visual">
-
-            <span>
-                PLAY
-            </span>
-
-            <strong>
-                ▶
-            </strong>
-
-            <div class="visual-lines"></div>
-
-        </div>
-
-    </article>
-
-
-    <!-- FEATURE 2 -->
-
-    <article class="feature feature-playlist reveal">
-
-        <div class="feature-index">
-            02
-        </div>
-
-        <div class="feature-content">
-
-            <p class="eyebrow">
-                LOCAL / MEMORY
-            </p>
-
-            <h3>
-                PERSISTENT<br>
-                PLAYLISTS
-            </h3>
-
-            <p>
-                Create playlists and keep them stored locally.
-            </p>
-
-        </div>
-
-
-        <div class="playlist-visual">
-
-            <div class="playlist-wheel"></div>
-
-            <div class="playlist-list mono">
-
-                <span>PLAYLISTS</span>
-
-                <b>
-                    FAVORITES
-                    <i>12</i>
-                </b>
-
-                <b>
-                    WATCH LATER
-                    <i>07</i>
-                </b>
-
-                <b>
-                    MY PLAYLIST
-                    <i>24</i>
-                </b>
-
-            </div>
-
-        </div>
-
-    </article>
-
-
-    <!-- FEATURE 3 -->
-
-    <article class="feature feature-speed reveal">
-
-        <div class="feature-index">
-            03
-        </div>
-
-        <div class="feature-content">
-
-            <p class="eyebrow">
-                CONTROL / PRECISION
-            </p>
-
-            <h3>
-                PLAYBACK<br>
-                CONTROL
-            </h3>
-
-            <p>
-                Volume, mute, playback speed and seeking
-                controls where you expect them.
-            </p>
-
-        </div>
-
-
-        <div class="speed-visual">
-
-            <strong>
-                1×
-            </strong>
-
-            <span>0.5×</span>
-            <span>1.5×</span>
-            <span>2×</span>
-
-        </div>
-
-    </article>
-
-
-    <!-- FEATURE 4 -->
-
-    <article class="feature feature-keyboard reveal">
-
-        <div class="feature-index">
-            04
-        </div>
-
-        <div class="feature-content">
-
-            <p class="eyebrow">
-                INPUT / SHORTCUTS
-            </p>
-
-            <h3>
-                KEYBOARD<br>
-                CONTROL
-            </h3>
-
-            <p>
-                Control playback without constantly reaching
-                for the mouse.
-            </p>
-
-        </div>
-
-
-        <div class="keys">
-
-            <div class="key">
-                <b>M</b>
-                <span>MUTE</span>
-            </div>
-
-            <div class="key">
-                <b>[</b>
-                <span>SPEED DOWN</span>
-            </div>
-
-            <div class="key">
-                <b>]</b>
-                <span>SPEED UP</span>
-            </div>
-
-            <div class="key wide">
-                <b>SHIFT + ←</b>
-                <span>VOLUME −</span>
-            </div>
-
-            <div class="key wide">
-                <b>SHIFT + →</b>
-                <span>VOLUME +</span>
-            </div>
-
-        </div>
-
-    </article>
-
-
-    <div class="fallback-note mono reveal">
-
-        <span>+</span>
-
-        AUTOMATIC FORMAT CONVERSION FALLBACK
-
-    </div>
-
-</section>
-
-
-<!-- RELEASE -->
-
-<section id="release" class="release-section">
-
+    <p class="fallback-note mono reveal"><span>+</span> Automatic format conversion fallback</p>
+  </section>
+
+  <!-- RELEASE -->
+  <section id="release" class="section">
     <div class="release-grid">
-
-        <div class="release-title reveal">
-
-            <span class="section-number">
-                03
-            </span>
-
-            <p class="eyebrow">
-                PUBLIC BUILD / DOWNLOAD
-            </p>
-
-            <h2>
-                ZENPLATER
-            </h2>
-
-            <div class="version">
-                0.1.0
-            </div>
-
-            <div class="beta">
-                BETA
-            </div>
-
-        </div>
-
-
-        <div class="release-sheet reveal">
-
-            <div class="sheet-row">
-                <span>VERSION</span>
-                <b>0.1.0</b>
-            </div>
-
-            <div class="sheet-row">
-                <span>STATUS</span>
-                <b>PUBLIC BETA</b>
-            </div>
-
-            <div class="sheet-row">
-                <span>PLATFORM</span>
-                <b>WINDOWS</b>
-            </div>
-
-            <div class="sheet-row">
-                <span>DISTRIBUTION</span>
-                <b>GITHUB</b>
-            </div>
-
-
-            <div class="sheet-rule"></div>
-
-
-            <a
-                class="download-button release-button"
-                href="https://github.com/0DD-Guy/BA-zenplater-site/releases/download/zenplater/Zenplater.Setup.0.1.0.exe"
-            >
-
-                <span>↓</span>
-
-                <strong>
-                    DOWNLOAD FOR WINDOWS
-                </strong>
-
-                <small>
-                    Zenplater.Setup.0.1.0.exe
-                </small>
-
-            </a>
-
-
-            <p class="beta-warning">
-                This is an early public beta.
-                Expect a few rough edges.
-            </p>
-
-            <p class="release-next">
-                More features are already on the way.
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ROADMAP -->
-
-<section id="roadmap" class="roadmap-section">
-
-    <div class="roadmap-head reveal">
-
-        <span class="section-number">
-            04
-        </span>
-
-        <div>
-
-            <p class="eyebrow">
-                DEVELOPMENT / NEXT
-            </p>
-
-            <h2>
-                THIS IS ONLY<br>
-                <em>VERSION ONE.</em>
-            </h2>
-
-        </div>
-
-    </div>
-
-
-    <div class="timeline">
-
-
-        <article class="timeline-item reveal">
-
-            <div class="node">
-                <span>01</span>
-            </div>
-
-            <div class="timeline-main">
-
-                <span class="mono status">
-                    NEXT
-                </span>
-
-                <h3>
-                    AUDIO TRACK SWITCHING
-                </h3>
-
-            </div>
-
-            <span class="timeline-arrow">
-                ↗
-            </span>
-
-        </article>
-
-
-        <article class="timeline-item reveal">
-
-            <div class="node">
-                <span>02</span>
-            </div>
-
-            <div class="timeline-main">
-
-                <span class="mono status">
-                    NEXT
-                </span>
-
-                <h3>
-                    SUBTITLE SWITCHING
-                </h3>
-
-            </div>
-
-            <span class="timeline-arrow">
-                ↗
-            </span>
-
-        </article>
-
-
-        <article class="timeline-item reveal">
-
-            <div class="node">
-                <span>03</span>
-            </div>
-
-            <div class="timeline-main">
-
-                <span class="mono status">
-                    PLANNED
-                </span>
-
-                <h3>
-                    EXTERNAL SUBTITLES
-                </h3>
-
-            </div>
-
-            <span class="timeline-arrow">
-                ↗
-            </span>
-
-        </article>
-
-
-        <article class="timeline-item reveal">
-
-            <div class="node">
-                <span>04</span>
-            </div>
-
-            <div class="timeline-main">
-
-                <span class="mono status">
-                    PLANNED
-                </span>
-
-                <h3>
-                    UI SOUND EFFECTS
-                </h3>
-
-            </div>
-
-            <span class="timeline-arrow">
-                ↗
-            </span>
-
-        </article>
-
-    </div>
-
-</section>
-
-
-<!-- FINAL CTA -->
-
-<section id="download" class="final-cta">
-
-    <div class="cta-grid">
-
-        <span class="mono cta-meta">
-            ZENPLATER / 0.1.0 / WINDOWS
-        </span>
-
-        <h2 class="reveal">
-            JUST PLAY<br>
-            <em>YOUR MEDIA.</em>
-        </h2>
-
-        <p class="reveal">
-            Zenplater 0.1.0 Beta · Windows
-        </p>
-
-        <a
-            class="final-button reveal"
-            href="https://github.com/0DD-Guy/BA-zenplater-site/releases/download/zenplater/Zenplater.Setup.0.1.0.exe"
-        >
-
-            <span>
-                DOWNLOAD ZENPLATER
-            </span>
-
-            <b>
-                →
-            </b>
-
+      <div class="release-title reveal">
+        <span class="index">03</span>
+        <p class="eyebrow">Public build / Download</p>
+        <h2>Zenplater</h2>
+        <div class="version">0.1.0</div>
+        <span class="pill">Beta</span>
+      </div>
+
+      <div class="release-sheet reveal">
+        <div class="row"><span>Version</span><b>0.1.0</b></div>
+        <div class="row"><span>Status</span><b>Public beta</b></div>
+        <div class="row"><span>Platform</span><b>Windows</b></div>
+        <div class="row"><span>Distribution</span><b>GitHub</b></div>
+
+        <a class="btn-primary full" href="https://github.com/0DD-Guy/BA-zenplater-site/releases/download/zenplater/Zenplater.Setup.0.1.0.exe">
+          <span class="btn-icon">↓</span>
+          <span class="btn-text">
+            <strong>Download for Windows</strong>
+            <small>Zenplater.Setup.0.1.0.exe</small>
+          </span>
         </a>
 
+        <p class="muted small">This is an early public beta. Expect a few rough edges.</p>
+        <p class="dim small">More features are already on the way.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ROADMAP -->
+  <section id="roadmap" class="section">
+    <div class="heading reveal">
+      <span class="index">04</span>
+      <div>
+        <p class="eyebrow">Development / Next</p>
+        <h2>This is only<br><span class="accent">version one.</span></h2>
+      </div>
     </div>
 
-</section>
+    <div class="timeline">
+      <article class="timeline-item reveal">
+        <span class="node">01</span>
+        <div>
+          <span class="mono status">Next</span>
+          <h3>Audio track switching</h3>
+        </div>
+        <span class="arrow">↗</span>
+      </article>
+
+      <article class="timeline-item reveal">
+        <span class="node">02</span>
+        <div>
+          <span class="mono status">Next</span>
+          <h3>Subtitle switching</h3>
+        </div>
+        <span class="arrow">↗</span>
+      </article>
+
+      <article class="timeline-item reveal">
+        <span class="node">03</span>
+        <div>
+          <span class="mono status">Planned</span>
+          <h3>External subtitles</h3>
+        </div>
+        <span class="arrow">↗</span>
+      </article>
+
+      <article class="timeline-item reveal">
+        <span class="node">04</span>
+        <div>
+          <span class="mono status">Planned</span>
+          <h3>UI sound effects</h3>
+        </div>
+        <span class="arrow">↗</span>
+      </article>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section id="download" class="cta">
+    <span class="mono dim">Zenplater / 0.1.0 / Windows</span>
+    <h2 class="reveal">Just play<br><span class="outline">your media.</span></h2>
+    <p class="mono reveal">Zenplater 0.1.0 Beta · Windows</p>
+    <a class="btn-outline reveal" href="https://github.com/0DD-Guy/BA-zenplater-site/releases/download/zenplater/Zenplater.Setup.0.1.0.exe">
+      Download Zenplater <b>→</b>
+    </a>
+  </section>
 
 </main>
 
-
-<!-- FOOTER -->
-
 <footer class="footer">
-
-    <div class="footer-brand">
-
-        <span class="brand-mark">
-            <i></i>
-            <i></i>
-            <i></i>
-        </span>
-
-        <strong>
-            ZENPLATER
-        </strong>
-
-    </div>
-
-
-    <div class="footer-center mono">
-        A PRODUCT OF BIDENT ARTS
-    </div>
-
-
-    <div class="footer-right mono">
-
-        <span>
-            0.1.0 · BETA
-        </span>
-
-        <a href="https://github.com/0DD-Guy/BA-zenplater-site/">
-            GITHUB ↗
-        </a>
-
-        <a href="https://github.com/0DD-Guy/BA-zenplater-site/releases">
-            RELEASES ↗
-        </a>
-
-    </div>
-
+  <div class="footer-brand">
+    <span class="dots"><i></i><i></i><i></i></span>
+    <strong>ZENPLATER</strong>
+  </div>
+  <div class="mono dim center">A product of Bident Arts</div>
+  <div class="mono dim links">
+    <span>0.1.0 · Beta</span>
+    <a href="https://github.com/0DD-Guy/BA-zenplater-site/">GitHub ↗</a>
+    <a href="https://github.com/0DD-Guy/BA-zenplater-site/releases">Releases ↗</a>
+  </div>
 </footer>
 
-
 <script src="script.js"></script>
-
 </body>
 </html>
